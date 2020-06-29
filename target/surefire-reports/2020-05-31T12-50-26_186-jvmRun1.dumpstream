@@ -1,0 +1,217 @@
+# Created on 2020-05-31T12:51:05.244
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+
+# Created on 2020-05-31T12:51:07.713
+Unexpected IOException: 8,1,Academy.HomePage,basePageNavigation(Academy.HomePage),null,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"[id='user_email']"}\000A  (Session info: headless chrome=83.0.4103.61)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-CL4KTUF'\002C ip: '192.168.0.103'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.61\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005Cggaur\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:50866}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 725a0ecec4b012f7cc05be15e197573b\000A*** Element info: {Using=css selector\002C value=[id='user_email']},null,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"[id='user_email']"}\000A  (Session info: headless chrome=83.0.4103.61)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-CL4KTUF'\002C ip: '192.168.0.103'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.61\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005Cggaur\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:50866}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 725a0ecec4b012f7cc05be15e197573b\000A*** Element info: {Using=css selector\002C value=[id='user_email']},HomePage.basePageNavigation:42 \00BB NoSuchElement no such element: Unable to loca...,org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"css selector"\002C"selector":"[id='user_email']"}\000A  (Session info: headless chrome=83.0.4103.61)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-CL4KTUF'\002C ip: '192.168.0.103'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.61\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005Cggaur\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:50866}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 725a0ecec4b012f7cc05be15e197573b\000A*** Element info: {Using=css selector\002C value=[id='user_email']}\000A\0009at Academy.HomePage.basePageNavigation(HomePage.java:42)\000A
+
+
+# Created on 2020-05-31T12:51:08.181
+Unexpected IOException: 5,1,Academy.HomePage,basePageNavigation(Academy.HomePage),Academy.HomePage,null,null
+
+
+# Created on 2020-05-31T12:51:26.001
+Unexpected IOException: 8,1,Academy.HomePage,basePageNavigation(Academy.HomePage),null,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"[id='user_email']"}\000A  (Session info: headless chrome=83.0.4103.61)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-CL4KTUF'\002C ip: '192.168.0.103'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.61\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005Cggaur\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:50866}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 725a0ecec4b012f7cc05be15e197573b\000A*** Element info: {Using=css selector\002C value=[id='user_email']},null,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"[id='user_email']"}\000A  (Session info: headless chrome=83.0.4103.61)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-CL4KTUF'\002C ip: '192.168.0.103'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.61\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005Cggaur\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:50866}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 725a0ecec4b012f7cc05be15e197573b\000A*** Element info: {Using=css selector\002C value=[id='user_email']},HomePage.basePageNavigation:42 \00BB NoSuchElement no such element: Unable to loca...,org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"css selector"\002C"selector":"[id='user_email']"}\000A  (Session info: headless chrome=83.0.4103.61)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-CL4KTUF'\002C ip: '192.168.0.103'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.61\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005Cggaur\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:50866}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 725a0ecec4b012f7cc05be15e197573b\000A*** Element info: {Using=css selector\002C value=[id='user_email']}\000A\0009at Academy.HomePage.basePageNavigation(HomePage.java:42)\000A
+
+
+# Created on 2020-05-31T12:51:29.258
+Unexpected IOException with stream: chrome
+
+
+# Created on 2020-05-31T12:51:29.601
+Unexpected IOException with stream: S
+
+# Created on 2020-05-31T12:51:29.601
+Unexpected IOException with stream: t
+
+# Created on 2020-05-31T12:51:29.601
+Unexpected IOException with stream: a
+
+# Created on 2020-05-31T12:51:29.617
+Unexpected IOException with stream: r
+
+# Created on 2020-05-31T12:51:29.617
+Unexpected IOException with stream: t
+
+# Created on 2020-05-31T12:51:29.617
+Unexpected IOException with stream: i
+
+# Created on 2020-05-31T12:51:29.617
+Unexpected IOException with stream: n
+
+# Created on 2020-05-31T12:51:29.633
+Unexpected IOException with stream: g
+
+# Created on 2020-05-31T12:51:29.633
+Unexpected IOException with stream:  
+
+# Created on 2020-05-31T12:51:29.648
+Unexpected IOException with stream: C
+
+# Created on 2020-05-31T12:51:29.648
+Unexpected IOException with stream: h
+
+# Created on 2020-05-31T12:51:29.648
+Unexpected IOException with stream: r
+
+# Created on 2020-05-31T12:51:29.648
+Unexpected IOException with stream: o
+
+# Created on 2020-05-31T12:51:29.648
+Unexpected IOException with stream: m
+
+# Created on 2020-05-31T12:51:29.664
+Unexpected IOException with stream: e
+
+# Created on 2020-05-31T12:51:29.664
+Unexpected IOException with stream: D
+
+# Created on 2020-05-31T12:51:29.664
+Unexpected IOException with stream: r
+
+# Created on 2020-05-31T12:51:29.664
+Unexpected IOException with stream: i
+
+# Created on 2020-05-31T12:51:29.664
+Unexpected IOException with stream: v
+
+# Created on 2020-05-31T12:51:29.664
+Unexpected IOException with stream: e
+
+# Created on 2020-05-31T12:51:29.680
+Unexpected IOException with stream: r
+
+# Created on 2020-05-31T12:51:29.680
+Unexpected IOException with stream:  
+
+# Created on 2020-05-31T12:51:29.680
+Unexpected IOException with stream: 8
+
+# Created on 2020-05-31T12:51:29.680
+Unexpected IOException with stream: 3
+
+# Created on 2020-05-31T12:51:29.680
+Unexpected IOException with stream: .
+
+# Created on 2020-05-31T12:51:29.680
+Unexpected IOException with stream: 0
+
+# Created on 2020-05-31T12:51:29.695
+Unexpected IOException with stream: .
+
+# Created on 2020-05-31T12:51:29.695
+Unexpected IOException with stream: 4
+
+# Created on 2020-05-31T12:51:29.695
+Unexpected IOException with stream: 1
+
+# Created on 2020-05-31T12:51:29.695
+Unexpected IOException with stream: 0
+
+# Created on 2020-05-31T12:51:29.695
+Unexpected IOException with stream: 3
+
+# Created on 2020-05-31T12:51:29.695
+Unexpected IOException with stream: .
+
+# Created on 2020-05-31T12:51:29.695
+Unexpected IOException with stream: 3
+
+# Created on 2020-05-31T12:51:29.711
+Unexpected IOException with stream: 9
+
+# Created on 2020-05-31T12:51:29.711
+Unexpected IOException with stream:  
+
+# Created on 2020-05-31T12:51:29.711
+Unexpected IOException with stream: (
+
+# Created on 2020-05-31T12:51:29.711
+Unexpected IOException with stream: c
+
+# Created on 2020-05-31T12:51:29.711
+Unexpected IOException with stream: c
+
+# Created on 2020-05-31T12:51:29.711
+Unexpected IOException with stream: b
+
+# Created on 2020-05-31T12:51:29.711
+Unexpected IOException with stream: f
+
+# Created on 2020-05-31T12:51:29.726
+Unexpected IOException with stream: 0
+
+# Created on 2020-05-31T12:51:29.726
+Unexpected IOException with stream: 1
+
+# Created on 2020-05-31T12:51:29.726
+Unexpected IOException with stream: 1
+
+# Created on 2020-05-31T12:51:29.726
+Unexpected IOException with stream: c
+
+# Created on 2020-05-31T12:51:29.742
+Unexpected IOException with stream: b
+
+# Created on 2020-05-31T12:51:29.742
+Unexpected IOException with stream: 2
+
+# Created on 2020-05-31T12:51:29.758
+Unexpected IOException with stream: d
+
+# Created on 2020-05-31T12:51:29.758
+Unexpected IOException with stream: 2
+
+# Created on 2020-05-31T12:51:29.758
+Unexpected IOException with stream: b
+
+# Created on 2020-05-31T12:51:29.758
+Unexpected IOException with stream: 1
+
+# Created on 2020-05-31T12:51:29.773
+Unexpected IOException with stream: 9
+
+# Created on 2020-05-31T12:51:29.773
+Unexpected IOException with stream: b
+
+# Created on 2020-05-31T12:51:29.773
+Unexpected IOException with stream: 5
+
+# Created on 2020-05-31T12:51:29.773
+Unexpected IOException with stream: 0
+
+# Created on 2020-05-31T12:51:29.773
+Unexpected IOException with stream: 6
+
+# Created on 2020-05-31T12:51:29.773
+Unexpected IOException with stream: d
+
+# Created on 2020-05-31T12:51:29.789
+Unexpected IOException with stream: 8
+
+# Created on 2020-05-31T12:51:29.789
+Unexpected IOException with stream: 4
+
+# Created on 2020-05-31T12:51:29.789
+Unexpected IOException with stream: 4
+
+# Created on 2020-05-31T12:51:29.789
+Unexpected IOException with stream: 4
+
+# Created on 2020-05-31T12:51:29.789
+Unexpected IOException with stream: 0
+
+# Created on 2020-05-31T12:51:29.789
+Unexpected IOException with stream: 0
+
+# Created on 2020-05-31T12:51:29.789
+Unexpected IOException with stream: 4
+
+# Created on 2020-05-31T12:51:29.789
+Unexpected IOException with stream: 8
+
